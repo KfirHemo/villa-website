@@ -15,7 +15,7 @@ export default function Contact() {
         <div className="contact-box">
           <h2>Contact Info:</h2>
           <p>Please inquire to:</p>
-          <p>info at villasugaree dot com</p>
+          <p><a href="mailto:vilasugaeesxm@gmail.com" className="contact-email">vilasugaeesxm@gmail.com</a></p>
         </div>
 
         <div className="contact-pricing">

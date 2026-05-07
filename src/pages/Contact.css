@@ -23,6 +23,16 @@
   line-height: 1.7;
 }
 
+.contact-email {
+  color: #fff;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.contact-email:hover {
+  opacity: 0.85;
+}
+
 .contact-pricing {
   text-align: center;
   padding: 48px 60px 60px;
