@@ -1,0 +1,123 @@
+.home-hero {
+  width: 100%;
+  min-height: 500px;
+  background-color: #90a4ae;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+
+.home-hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.home-hero-text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.home-hero-text p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.65;
+}
+
+.home-hero-cta-box {
+  background: rgba(50, 70, 100, 0.75);
+  padding: 40px 36px;
+  min-width: 280px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.home-hero-cta-box h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.home-hero-cta-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.2s;
+}
+
+.home-hero-cta-btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* Garden intro */
+.home-garden {
+  padding: 80px 60px;
+  text-align: center;
+  background: #fff;
+}
+
+.home-garden h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.home-garden p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.75;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* Gallery button */
+.home-gallery-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background: #f0f4f8;
+}
+
+.home-gallery-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #5ba4cf;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+
+.home-gallery-btn:hover {
+  background: #4a90b8;
+}

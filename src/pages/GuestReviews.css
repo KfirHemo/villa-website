@@ -1,0 +1,9 @@
+.reviews-grid-section {
+  padding: 60px;
+  background: #f0f4f8;
+}
+
+.reviews-grid {
+  columns: 3;
+  column-gap: 24px;
+}

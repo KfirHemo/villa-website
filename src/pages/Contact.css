@@ -1,0 +1,71 @@
+.contact-section {
+  background: #fafafa;
+  padding: 0;
+}
+
+.contact-box {
+  background: #5ba4cf;
+  color: #fff;
+  padding: 50px 60px;
+  max-width: 860px;
+  margin: 60px auto 0;
+  border-radius: 4px;
+}
+
+.contact-box h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.contact-box p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.contact-pricing {
+  text-align: center;
+  padding: 48px 60px 60px;
+}
+
+.contact-pricing h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #5ba4cf;
+  margin-bottom: 8px;
+}
+
+.pricing-label {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+.pricing-amount {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+  border-top: 1px solid #dde3e9;
+  padding-top: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pricing-dollar {
+  font-size: 1.2rem;
+  color: #5ba4cf;
+  font-weight: 700;
+  vertical-align: super;
+}
+
+.pricing-number {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #5ba4cf;
+}
+
+.pricing-period {
+  font-size: 1rem;
+  color: #888;
+}
