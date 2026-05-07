@@ -11,3 +11,14 @@
   max-width: 860px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .villa-description {
+    padding: 50px 24px;
+  }
+
+  .villa-description p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+}

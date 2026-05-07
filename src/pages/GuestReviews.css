@@ -7,3 +7,20 @@
   columns: 3;
   column-gap: 24px;
 }
+
+@media (max-width: 900px) {
+  .reviews-grid {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-grid-section {
+    padding: 40px 20px;
+  }
+
+  .reviews-grid {
+    columns: 1;
+    column-gap: 0;
+  }
+}

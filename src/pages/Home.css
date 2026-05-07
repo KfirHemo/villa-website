@@ -68,6 +68,7 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
   transition: background 0.2s, color 0.2s;
+  text-align: center;
 }
 
 .home-hero-cta-btn:hover {
@@ -102,7 +103,7 @@
 .home-gallery-btn-wrapper {
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  padding: 40px 20px;
   background: #f0f4f8;
 }
 
@@ -116,8 +117,78 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   transition: background 0.2s;
+  text-align: center;
 }
 
 .home-gallery-btn:hover {
   background: #4a90b8;
+}
+
+@media (max-width: 900px) {
+  .home-hero-overlay {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 40px 24px;
+    gap: 24px;
+  }
+
+  .home-hero-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .home-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .home-hero-cta-box {
+    align-self: center;
+    width: 100%;
+    max-width: 360px;
+    padding: 28px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    min-height: 560px;
+  }
+
+  .home-garden {
+    padding: 60px 24px;
+  }
+
+  .home-garden h2 {
+    font-size: 1.6rem;
+  }
+
+  .home-garden p {
+    font-size: 0.95rem;
+  }
+
+  .home-gallery-btn {
+    padding: 12px 24px;
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-hero-text h1 {
+    font-size: 1.55rem;
+    line-height: 1.2;
+  }
+
+  .home-hero-text p {
+    font-size: 0.88rem;
+  }
+
+  .home-hero-cta-box h2 {
+    font-size: 1rem;
+  }
+
+  .home-hero-cta-btn {
+    font-size: 0.68rem;
+    padding: 11px 14px;
+  }
 }

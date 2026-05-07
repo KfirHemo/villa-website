@@ -17,3 +17,29 @@
   object-fit: cover;
   display: block;
 }
+
+@media (max-width: 900px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .photo-tile {
+    height: 150px;
+  }
+}
+
+@media (max-width: 380px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-tile {
+    height: 220px;
+  }
+}
